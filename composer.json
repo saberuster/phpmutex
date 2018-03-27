@@ -2,6 +2,10 @@
   "name": "saberuster/phpmutex",
   "type": "library",
   "description": "A php distributed mutex base on redis",
+  "keywords": [
+    "php"
+  ],
+  "homepage": "https://github.com/saberuster/phpmutex",
   "authors": [
     {
       "name": "saberuster",

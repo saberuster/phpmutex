@@ -1,13 +1,17 @@
 {
   "name": "saberuster/phpmutex",
+  "type": "library",
+  "description": "A php distributed mutex base on redis",
   "authors": [
     {
       "name": "saberuster",
       "email": "saberuster@gmail.com"
     }
   ],
+  "license": "MIT",
   "require": {
-    "predis/predis": "^1.1"
+    "predis/predis": "^1.1",
+    "php": "^7.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0"

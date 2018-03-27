@@ -1,0 +1,25 @@
+{
+  "name": "saberuster/phpmutex",
+  "authors": [
+    {
+      "name": "saberuster",
+      "email": "saberuster@gmail.com"
+    }
+  ],
+  "require": {
+    "predis/predis": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpMutex\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PhpMutex\\Tests\\": "tests/"
+    }
+  }
+}
